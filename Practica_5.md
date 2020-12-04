@@ -93,12 +93,73 @@
 
 ## Establezca el atributo textColor en @android:color/white.
 
+<img src="Medios\21.PNG/">
+
 ## Edite el atributo text en Toast.
+
+<img src="Medios\22.PNG/">
 
 ## Selecciona el segundo botón y edite su campo id a button_count.
 
+<img src="Medios\23.PNG/">
 
 ## Edite el atributo text del segundo botón a Contar.
 
+<img src="Medios\24.PNG/">
 
 ## Cambie el color de texto y de fondo a los botones.
+
+<img src="Medios\24.PNG/">
+
+##  Agregar el elemento TextView y sus atributos correspondientes.
+
+## Desde el panel Palette y el apartado Common, agregue un elemento View TextView y establezca el atributo id a show_count.
+
+## o Establezca las restricciones del TextView, la parte superior con el botón de Toast y su parte inferior con el botón contador.
+
+## o Establezca las restricciones izquierda y derecha del elemento TextView al lado correspondiente al contenedor padre.
+
+## o Establezca el valor text a 0
+
+## o Establezca el valor textSize a 160sp.
+
+## o Establezca el textStyle a bold.
+
+## o Cambie layout_width y layout_height a match_constraint.
+
+## o Establezca el textColor a @color/colorPrimary.
+
+## o Establezca un valor preferido al atributo background, opcional el #0F49CD.
+
+## o Establezca el valor gravity a center_vertical
+
+## Tarea 1.4: Editando el layout en el XML
+
+### ¡El diseño de la aplicación Hello Toast está casi terminado! Sin embargo, aparece un signo de exclamación junto a cada elemento de la interfaz de usuario en el árbol de componentes (Component Tree). Pase el puntero sobre estos signos de exclamación para ver los mensajes de advertencia, como se muestra a continuación. Aparece la misma advertencia para los tres elementos: las cadenas codificadas deben usar recursos.
+
+## Edite el fichero strings.xml que se encuentra en la carpeta res/values:
+
+## Siga los siguientes pasos:
+
+## o Abra el fichero activity_main.xml y cambie el modo solamente a código.
+
+## o Cambie el valor de text del TextView a un @string/count_initial_value.
+## o Cambie el valor de text del botón superior a @string/button_label_toast.
+
+## o Cambie el valor de text del botón inferior a @string/button_label_count.
+
+## Tarea 1.5: Agregar el manejador del evento onClick para los botones.
+
+## o Establezca el siguiente código al botón que tenga como id button_toast, antes de cerrarlo.
+
+## o Establezca el siguiente código al botón que tenga como id button_count, antes de cerrarlo.
+
+## o Abra el MainActivity.kt y agregue el siguiente código.
+
+## o Agregue el siguiente código al método showToast.
+
+## o Pruebe los resultados ejecutando la aplicación y mostrando el mensaje generado con el valor Hola soy un Toast.
+
+## o Agregue el siguiente código al método countUp.
+
+## o Muestre la aplicación funcionando con el contador funcionando el contador y el mensaje Toast mostrándose cada vez que el usuario de Clic.
