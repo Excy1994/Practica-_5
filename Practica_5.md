@@ -53,14 +53,48 @@
 
 ## Pruebe borrar todos los constraints o restricciones de un elemento, seleccionando y pasando el puntero sobre este y seleccionar cleal all constraints.
 
-## Tarea 1.3: Cambiar los atributos de los elementos de la interfaz de usuario
+<img src="Medios\12PNG.PNG/">
+<img src="Medios\13.PNG/">
 
-## En esta tarea, ingresa nuevos valores y cambia los valores de los atributos importantes de Button, que son aplicables a la mayoría de los tipos de vista.
+## Tarea 1.3: Cambiar los atributos de los elementos de la interfaz de usuario
 
 
 ## Cambiar el tamaño del Button.
 
-## El editor de layout ofrece controles de cambio de tamaño en las cuatro esquinas de una view para que pueda cambiar el tamaño de la view rápidamente. Puede arrastrar los controladores en cada esquina de la View para cambiar su tamaño, pero al hacerlo, codifica las dimensiones de ancho y alto. Evite la codificación de tamaños para la mayoría de los elementos de Vista, porque las dimensiones codificadas no se pueden adaptar a diferentes tamaños de pantalla y contenido.
+## Seleccione el botón superior en el panel Árbol de componentes.
+
+<img src="Medios\14.PNG/">
+
+## Haga clic en la pestaña Atributos en el lado derecho de la ventana del editor de layout
+
+<img src="Medios\15.PNG/">
+
+## Haga clic en el control de ancho las veces que sea necesario; debe lograr el valor **match_constraint** para el **layout_width.
+
+<img src="Medios\16.PNG/">
+
+> *Realice la misma modificación para el botón inferior, el resultado es que ambos botones deben cubrir todo el ancho del constraint.*
+
+<img src="Medios\17.PNG/">
+
+*Establezca wrap_content al layout_height, también puede usar un valor fijo de 16dp*
+
+<img src="Medios\18.PNG/">
+
+## Siga los siguientes pasos:
+
+##  Después de seleccionar el primer botón, edite el campo ID en la parte superior del panel Atributos a button_toast para el atributo android: id, que se usa para identificar el elemento en el layout.git
+
+## Establezca el atributo de background en @color/colorPrimary. (A medida que ingresa @c, aparecen opciones para una fácil selección. Si no está establecido el color, hágalo en colors.xml
+
+## Establezca el atributo textColor en @android:color/white.
+
+## Edite el atributo text en Toast.
+
+## Selecciona el segundo botón y edite su campo id a button_count.
 
 
-## En su lugar, use el panel Atributos en el lado derecho del editor de layout para seleccionar un modo de tamaño que no use dimensiones codificadas. El panel Atributos incluye un panel de tamaño cuadrado llamado inspector de vista en la parte superior. Los símbolos dentro del cuadrado representan la configuración de alto y ancho:
+## Edite el atributo text del segundo botón a Contar.
+
+
+## Cambie el color de texto y de fondo a los botones.
