@@ -85,7 +85,11 @@
 
 ##  Después de seleccionar el primer botón, edite el campo ID en la parte superior del panel Atributos a button_toast para el atributo android: id, que se usa para identificar el elemento en el layout.git
 
+<img src="Medios\19.PNG/">
+
 ## Establezca el atributo de background en @color/colorPrimary. (A medida que ingresa @c, aparecen opciones para una fácil selección. Si no está establecido el color, hágalo en colors.xml
+
+<img src="Medios\20.PNG/">
 
 ## Establezca el atributo textColor en @android:color/white.
 
