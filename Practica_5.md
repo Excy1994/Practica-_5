@@ -115,6 +115,9 @@
 
 ## Desde el panel Palette y el apartado Common, agregue un elemento View TextView y establezca el atributo id a show_count.
 
+<img src="Medios\26.PNG/">
+<img src="Medios\25.PNG/">
+
 ## o Establezca las restricciones del TextView, la parte superior con el botón de Toast y su parte inferior con el botón contador.
 
 ## o Establezca las restricciones izquierda y derecha del elemento TextView al lado correspondiente al contenedor padre.
