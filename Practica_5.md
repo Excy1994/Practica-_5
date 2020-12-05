@@ -1,11 +1,8 @@
 
 # PRACTICA_5  MI Primera Interfaz De Usuario Interactiva
 
-## I. Visión general de la aplicación
 
-<img src="Medios\1.PNG/">
 
-### El resultado debe mostrar una captura semejante a esta pantalla siguiente:
 
 ## Abra activity_main.xml desde el panel Proyecto > Android si aún no está abierto. Si la pestaña Design (diseño) aún no está seleccionada, haga clic en ella.
 
@@ -117,28 +114,46 @@
 
 <img src="Medios\26.PNG/">
 <img src="Medios\25.PNG/">
+<img src="Medios\27.PNG/">
 
 ## o Establezca las restricciones del TextView, la parte superior con el botón de Toast y su parte inferior con el botón contador.
 
+<img src="Medios\28.PNG/">
+
 ## o Establezca las restricciones izquierda y derecha del elemento TextView al lado correspondiente al contenedor padre.
+
+<img src="Medios\29.PNG/">
 
 ## o Establezca el valor text a 0
 
+<img src="Medios\30.PNG/">
+
 ## o Establezca el valor textSize a 160sp.
+
+<img src="Medios\31.PNG/">
 
 ## o Establezca el textStyle a bold.
 
+<img src="Medios\32.PNG/">
+
 ## o Cambie layout_width y layout_height a match_constraint.
+
+<img src="Medios\34.PNG/">
 
 ## o Establezca el textColor a @color/colorPrimary.
 
+<img src="Medios\33.PNG/">
+
 ## o Establezca un valor preferido al atributo background, opcional el #0F49CD.
+
+<img src="Medios\35.PNG/">
 
 ## o Establezca el valor gravity a center_vertical
 
+<img src="Medios\36.PNG/">
+
 ## Tarea 1.4: Editando el layout en el XML
 
-### ¡El diseño de la aplicación Hello Toast está casi terminado! Sin embargo, aparece un signo de exclamación junto a cada elemento de la interfaz de usuario en el árbol de componentes (Component Tree). Pase el puntero sobre estos signos de exclamación para ver los mensajes de advertencia, como se muestra a continuación. Aparece la misma advertencia para los tres elementos: las cadenas codificadas deben usar recursos.
 
 ## Edite el fichero strings.xml que se encuentra en la carpeta res/values:
 
@@ -146,23 +161,45 @@
 
 ## o Abra el fichero activity_main.xml y cambie el modo solamente a código.
 
+<img src="Medios\37.PNG/">
+
 ## o Cambie el valor de text del TextView a un @string/count_initial_value.
+
+<img src="Medios\38.PNG/">
+
 ## o Cambie el valor de text del botón superior a @string/button_label_toast.
 
+<img src="Medios\39.PNG/">
+
 ## o Cambie el valor de text del botón inferior a @string/button_label_count.
+
+<img src="Medios\40.PNG/">
 
 ## Tarea 1.5: Agregar el manejador del evento onClick para los botones.
 
 ## o Establezca el siguiente código al botón que tenga como id button_toast, antes de cerrarlo.
 
+<img src="Medios\41.PNG/">
+
 ## o Establezca el siguiente código al botón que tenga como id button_count, antes de cerrarlo.
 
-## o Abra el MainActivity.kt y agregue el siguiente código.
+<img src="Medios\42.PNG/">
 
+## o Abra el MainActivity.kt y agregue el siguiente código.
+<img src="Medios\43.PNG/">
 ## o Agregue el siguiente código al método showToast.
+
+<img src="Medios\44.PNG/">
 
 ## o Pruebe los resultados ejecutando la aplicación y mostrando el mensaje generado con el valor Hola soy un Toast.
 
+<img src="Medios\45.PNG/">
+
 ## o Agregue el siguiente código al método countUp.
 
+<img src="Medios\46.PNG/">
+
 ## o Muestre la aplicación funcionando con el contador funcionando el contador y el mensaje Toast mostrándose cada vez que el usuario de Clic.
+
+<img src="Medios\47.PNG/">
+<img src="Medios\48.PNG/">
